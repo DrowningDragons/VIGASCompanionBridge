@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VIGASCompanionBridge",
+	"Description": "Bridges GASCompanion with VaultIt doing the work for you",
+	"Category": "Gameplay",
+	"CreatedBy": "Drowning Dragons",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/DrowningDragons/VaultIt-Wiki/wiki",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/rk3VRYv",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VIGASCompanionBridge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VaultIt",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7d19b5622d6846edb9881e6c89bce05e"
+		},
+		{
+			"Name": "GASCompanion",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d83c6f34c3fb4b7092dde195c37c7413"
+		}
+	]
+}
