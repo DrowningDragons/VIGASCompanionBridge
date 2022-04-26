@@ -20,9 +20,8 @@
 			"Name": "VIGASCompanionBridge",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
-				"Win64",
-				"Win32"
+			"PlatformAllowList": [
+				"Win64"
 			]
 		}
 	],

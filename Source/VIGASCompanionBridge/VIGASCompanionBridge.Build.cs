@@ -28,7 +28,7 @@ public class VIGASCompanionBridge : ModuleRules
 				"Core",
                 "VaultIt",
                 "VIMotionWarping",
-                "ModularGASCompanion",
+                "GASCompanion",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

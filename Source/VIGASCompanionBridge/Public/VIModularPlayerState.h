@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ModularGameplayActors/ModularPlayerState.h"
+#include "ModularGameplayActors/GSCModularPlayerState.h"
 #include "VIModularPlayerState.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class VIGASCOMPANIONBRIDGE_API AVIModularPlayerState : public AModularPlayerState
+class VIGASCOMPANIONBRIDGE_API AVIModularPlayerState : public AGSCModularPlayerState
 {
 	GENERATED_BODY()
 	

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ModularGameplayActors/ModularPlayerStateCharacter.h"
+#include "ModularGameplayActors/GSCModularPlayerStateCharacter.h"
 #include "VITypes.h"
 #include "Pawn/VIPawnInterface.h"
 #include "VIModularPlayerStateCharacter.generated.h"
@@ -17,7 +17,7 @@ class AController;
  * Bridges GASCompanion Plugin with VaultIt
  */
 UCLASS()
-class VIGASCOMPANIONBRIDGE_API AVIModularPlayerStateCharacter : public AModularPlayerStateCharacter, public IVIPawnInterface
+class VIGASCOMPANIONBRIDGE_API AVIModularPlayerStateCharacter : public AGSCModularPlayerStateCharacter, public IVIPawnInterface
 {
 	GENERATED_BODY()
 	
